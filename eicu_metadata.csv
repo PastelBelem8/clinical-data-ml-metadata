@@ -12,7 +12,6 @@ alt,variable,continuous,False,Alanine aminotransferase concentration,IU/L
 ast,variable,continuous,False,Aspartate aminotransferase concentration,IU/L
 be,variable,continuous,False,Base excess ,mmol/L
 bicar,variable,continuous,False,Bicarbonate concentration,mmol/L
-,variable,continuous,False,,
 bili,variable,continuous,False,Bilirubin (total) ,mg/dL
 bili_dir,variable,continuous,False,Bilirubin (direct),mg/dL
 bnd,variable,continuous,False,Percentage of Band form neutrophils,
@@ -43,7 +42,6 @@ mg,variable,continuous,False,Magnesium concentration,mg/dL
 na,variable,continuous,False,Sodium concentration,mmol/L
 neut,variable,continuous,False,Percentage of Neutrophils.,
 o2sat,variable,continuous,False,Oxygen saturation (%),
-,variable,continuous,False,,
 pco2,variable,continuous,False,Partial pressure of carbon dioxide,mmHg
 ph,variable,continuous,False,pH of blood of the patient.,
 phos,variable,continuous,False,Phosphate concentration,mg/dL
