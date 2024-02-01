@@ -1,0 +1,58 @@
+name,role,type,demographic,description,units
+aki,target,categorical,False,"Defined as Kidney Disease Improving Global Outcomes (KDIGO) stage >= 1, either due to an increase in serum creatinine or low urine output. 'True' if the patient develops AKI within the next 6 hours and 'False' otherwise.",
+stay_id,ID,continuous,False,"Unique identifier of the patient stay at an eICU unit of 208 hospitals in the US, collected between 2014 and 2015.",
+time,sequential,timestamp,False,Hourly timestamps for each stay.,
+age,variable,continuous,True,Age of the patient at hospital admission,years
+sex,variable,categorical,True,"Gender of the patient. It takes one of the values {'Female', 'Male'}.",
+height,variable,continuous,True,Body height of the patient at hospital admission,cm
+weight,variable,continuous,True,Body weight of the patient at hospital admission,kg
+alb,variable,continuous,False,Albumin concentration,g/dL
+alp,variable,continuous,False,Alkaline phosphatase concentration,IU/L
+alt,variable,continuous,False,Alanine aminotransferase concentration,IU/L
+ast,variable,continuous,False,Aspartate aminotransferase concentration,IU/L
+be,variable,continuous,False,Base excess ,mmol/L
+bicar,variable,continuous,False,Bicarbonate concentration,mmol/L
+,variable,continuous,False,,
+bili,variable,continuous,False,Bilirubin (total) ,mg/dL
+bili_dir,variable,continuous,False,Bilirubin (direct),mg/dL
+bnd,variable,continuous,False,Percentage of Band form neutrophils,
+bun,variable,continuous,False,Blood urea nitrogen,mg/dL
+ca,variable,continuous,False,Calcium concentration,mg/dL
+cai,variable,continuous,False,Ionized calcium concentration,mmol/L
+ck,variable,continuous,False,Creatine kinase concentration,IU/L
+ckmb,variable,continuous,False,Creatine kinase MB concentration,ng/mL
+cl,variable,continuous,False,Chloride concentration,mmol/L
+crea,variable,continuous,False,Creatinine concentration,mg/dL
+crp,variable,continuous,False,C-reactive protein concentration,mg/dL
+dbp,variable,continuous,False,Diastolic blood pressure,mmHg
+fgn,variable,continuous,False,Fibrinogen concentration,mg/dL
+fio2,variable,continuous,False,Fraction of inspired oxygen (%),
+glu,variable,continuous,False,Glucose concentration ,mg/dL
+hgb,variable,continuous,False,Hemoglobin concentration,g/dL
+hr,variable,continuous,False,Heart rate measured in beats per minute.,BPM
+int_pr,variable,continuous,False,International normalized ratio (INR),
+k,variable,continuous,False,Potassium concentration,mmol/L
+lact,variable,continuous,False,Lactate concentration,mmol/L
+lymph,variable,continuous,False,Percentage of Lymphocytes,
+map,variable,continuous,False,Mean arterial pressure ,mmHg
+mch,variable,continuous,False,Mean cell hemoglobin,pg
+mchc,variable,continuous,False,Mean corpuscular hemoglobin concentration (%),
+mcv,variable,continuous,False,Mean corpuscular volume,fL
+methb,variable,continuous,False,Methemoglobin concentration (%),
+mg,variable,continuous,False,Magnesium concentration,mg/dL
+na,variable,continuous,False,Sodium concentration,mmol/L
+neut,variable,continuous,False,Percentage of Neutrophils.,
+o2sat,variable,continuous,False,Oxygen saturation (%),
+,variable,continuous,False,,
+pco2,variable,continuous,False,Partial pressure of carbon dioxide,mmHg
+ph,variable,continuous,False,pH of blood of the patient.,
+phos,variable,continuous,False,Phosphate concentration,mg/dL
+plt,variable,continuous,False,Platelet count,"1,000/μL"
+po2,variable,continuous,False,Partial pressure of oxygen ,mmHg
+ptt,variable,continuous,False,Partial thromboplastin time,seconds
+resp,variable,continuous,False,Respiratory rate measured in breaths/minute,breaths per minute
+sbp,variable,continuous,False,Systolic blood pressure,mmHg
+temp,variable,continuous,False,Body temperature,Celsius
+tnt,variable,continuous,False,Troponin T concentration,ng/mL
+urine,variable,continuous,False,Urine output,mL
+wbc,variable,continuous,False,Count of white blood cells,"1,000/μL"
