@@ -4,8 +4,8 @@ stay_id,ID,continuous,False,"Unique identifier of the patient stay at an eICU un
 time,sequential,timestamp,False,Hourly timestamps for each stay.,
 age,variable,continuous,True,Age of the patient at hospital admission,years
 sex,variable,categorical,True,"Gender of the patient. It takes one of the values {'Female', 'Male'}.",
-height,variable,continuous,True,Body height of the patient at hospital admission,cm
-weight,variable,continuous,True,Body weight of the patient at hospital admission,kg
+height,variable,continuous,False,Body height of the patient at hospital admission,cm
+weight,variable,continuous,False,Body weight of the patient at hospital admission,kg
 alb,variable,continuous,False,Albumin concentration,g/dL
 alp,variable,continuous,False,Alkaline phosphatase concentration,IU/L
 alt,variable,continuous,False,Alanine aminotransferase concentration,IU/L
